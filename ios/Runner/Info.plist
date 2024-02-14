@@ -2,6 +2,19 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsLocalNetworking</key>
+        <true/>
+        <key>NSAllowsArbitraryLoadsInWebContent</key>
+        <true/>
+    </dict>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>해당 앱에서 음악을 재생하기 위한 권한을 수락해 주세요.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>해당 앱에서 사진을 촬영하기 위한 권한을 수락해 주세요.</string>
+    <key>NSMicroPhoneUsageDescription</key>
+    <string>해당 앱에서 마이크를 사용하기 위한 권한을 수락해 주세요.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>

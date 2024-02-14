@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_git/screens/main_screen.dart';
 
 void main() {
   runApp(const MyGitApp());
@@ -17,9 +18,7 @@ class MyGitApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity
       ),
       debugShowCheckedModeBanner: false,
-      home: Center(
-        child: Container(),
-      ),
+      home: const MainScreen(),
     );
   }
 }
